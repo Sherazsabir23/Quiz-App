@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #ffe1ff;
+    user-select: none;
+    overflow: hidden;
+}
+
+.quiz-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 375px;
+    height: auto;
+    background-color: #31295a;
+    border-radius: 20px;
+    padding-bottom: 2rem;
+    position: relative;
+}
+
+.overly {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 375px;
+    height: 100%;
+    background-color: #31295a;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    color: white;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.overly p {
+    font-size: 1.6rem;
+    width: 80%;
+    text-align: center;
+}
+
+.overly .start {
+    font-size: 1.8rem;
+    background-color: #d2d0d0;
+    color: black;
+    padding: 10px 30px;
+    border-radius: 25px;
+    margin-top: 3rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.question {
+    padding-left: 1rem;
+    color: white;
+    font-size: 2rem;
+    width: 90%;
+    height: auto;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.answers {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+    gap: 20px;
+}
+
+.answers .btn {
+    width: 80%;
+    height: 50px;
+    color: #31295a;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+}
+
+.next-btn {
+    font-size: 1.8rem;
+    background-color: #d2d0d0;
+    color: black;
+    padding: 10px 30px;
+    border-radius: 25px;
+    margin-top: 1.5rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.correct {
+    background-color: green;
+    color: white;
+}
+
+.wrong {
+    background-color: red;
+    color: white;
+}
