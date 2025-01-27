@@ -21,7 +21,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 375px;
+    width: 300px;
     height: auto;
     background-color: #31295a;
     border-radius: 20px;
@@ -34,7 +34,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 375px;
+    width: 300px;
     height: 100%;
     background-color: #31295a;
     border-radius: 20px;
